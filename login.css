@@ -1,0 +1,307 @@
+/* login css */
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all .2s linear;
+  }
+  
+  .contain{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../images/bg2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center ;
+    perspective: 1000px;
+    transform-style: preserve-3d ;
+  }
+  
+  .contain form{
+    height: 450px;
+    width: 350px;
+    background: rgba(255,255,255,.1);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.3);
+  border-top: 1px solid rgba(255,255,255,.3);
+  border-left: 1px solid rgba(255,255,255,.3);
+  backdrop-filter: blur(10px);
+  }
+  
+  .contain form h3{
+    font-size: 30px;
+    padding: 20px 0;
+    color: #ccc;
+    letter-spacing: 3px;
+  }
+  
+  .contain form h5{
+    font-size: 10px;
+    padding: 20px 0;
+    color: #ccc;
+    letter-spacing: 2px;
+  }
+  
+  .contain form i{
+    padding: 0 5px;
+    color: #bbb;
+    font-size: 20px;
+  }
+  
+  .contain form input{
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 82%;
+    background: rgba(0,0,0,.1) ;
+    color: rgba(255,255,255,.7);
+    box-shadow: 0 0 5px rgba(0,0,0,.3) inset;
+    font-size: 17px;
+   padding: 0 10px; 
+   margin: 15px 0;
+   letter-spacing: 2px;
+  }
+  
+  .contain form  input[type="submit"]{
+    width: 90%;
+  cursor: pointer;
+  background: linear-gradient(90deg, deeppink, blueviolet);
+  margin-top: 10px;
+  border-radius: 50px;
+  }
+  
+  .contain form  input[type="submit"]:hover{
+    letter-spacing: 6px ;
+  } 
+  
+  .contain{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../images/bg2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center ;
+    perspective: 1000px;
+    transform-style: preserve-3d ;
+  }
+  
+  .contain form{
+    height: 450px;
+    width: 350px;
+    background: rgba(255,255,255,.1);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.3);
+  border-top: 1px solid rgba(255,255,255,.3);
+  border-left: 1px solid rgba(255,255,255,.3);
+  backdrop-filter: blur(10px);
+  }
+  
+  .contain form h3{
+    font-size: 30px;
+    padding: 20px 0;
+    color: #ccc;
+    letter-spacing: 3px;
+  }
+  
+  .contain form h5{
+    font-size: 10px;
+    padding: 20px 0;
+    color: #ccc;
+    letter-spacing: 2px;
+  }
+  
+  .contain form i{
+    padding: 0 5px;
+    color: #bbb;
+    font-size: 20px;
+  }
+  
+  .contain form input{
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 82%;
+    background: rgba(0,0,0,.1) ;
+    color: rgba(255,255,255,.7);
+    box-shadow: 0 0 5px rgba(0,0,0,.3) inset;
+    font-size: 17px;
+   padding: 0 10px; 
+   margin: 15px 0;
+   letter-spacing: 2px;
+  }
+  
+  .contain form  input[type="submit"]{
+    width: 90%;
+  cursor: pointer;
+  background: linear-gradient(90deg, deeppink, blueviolet);
+  margin-top: 10px;
+  border-radius: 50px;
+  }
+  
+  .contain form  input[type="submit"]:hover{
+    letter-spacing: 6px ;
+  } 
+  
+  
+  
+  /*sign Up css*/
+  
+  *{
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all .2s linear;
+  }
+  
+  .scontain{
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../images/bg3.jpg) no-repeat;
+  background-size: cover;
+  background: rgba(0,0,0,.8);
+  background-position: center ;
+  perspective: 1000px;
+  transform-style: preserve-3d ;
+  }
+  
+  .scontain form{
+  height: 500px;
+  width: 360px;
+  background: rgba(255,255,255,.1);
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.3);
+  border-top: 1px solid rgba(255,255,255,.3);
+  border-left: 1px solid rgba(255,255,255,.3);
+  backdrop-filter: blur(10px);
+  }
+  
+  .scontain form h3{
+  font-size: 30px;
+  padding: 20px 0;
+  color: #ccc;
+  letter-spacing: 3px;
+  }
+  
+  .scontain form h5{
+  font-size: 10px;
+  padding: 20px 0;
+  color: #ccc;
+  letter-spacing: 2px;
+  }
+  
+  .scontain form i{
+  padding: 0 5px;
+  color: #bbb;
+  font-size: 20px;
+  }
+  
+  .scontain form input{
+  outline: none;
+  border: none;
+  height: 40px;
+  width: 82%;
+  background: rgba(0,0,0,.1) ;
+  color: rgba(255,255,255,.7);
+  box-shadow: 0 0 5px rgba(0,0,0,.3) inset;
+  font-size: 17px;
+  padding: 0 10px; 
+  margin: 15px 0;
+  letter-spacing: 2px;
+  }
+  
+  .scontain form  input[type="submit"]{
+  width: 90%;
+  cursor: pointer;
+  background: linear-gradient(90deg, deeppink, blueviolet);
+  margin-top: 10px;
+  border-radius: 50px;
+  }
+  
+  .scontain form  input[type="submit"]:hover{
+  letter-spacing: 6px ;
+  } 
+  
+  .scontain{
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../images/bg3.jpg) no-repeat;
+  background-size: cover;
+  background-position: center ;
+  perspective: 1000px;
+  transform-style: preserve-3d ;
+  }
+  
+  .scontain form{
+  height: 450px;
+  width: 350px;
+  background: rgba(255,255,255,.1);
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.3);
+  border-top: 1px solid rgba(255,255,255,.3);
+  border-left: 1px solid rgba(255,255,255,.3);
+  backdrop-filter: blur(10px);
+  }
+  
+  .scontain form h3{
+  font-size: 30px;
+  padding: 20px 0;
+  color: #ccc;
+  letter-spacing: 3px;
+  }
+  
+  .scontain form h5{
+  font-size: 10px;
+  padding: 20px 0;
+  color: #ccc;
+  letter-spacing: 2px;
+  }
+  
+  .scontain form i{
+  padding: 0 5px;
+  color: #bbb;
+  font-size: 20px;
+  }
+  
+  .scontain form input{
+  outline: none;
+  border: none;
+  height: 40px;
+  width: 82%;
+  background: rgba(0,0,0,.1) ;
+  color: rgba(255,255,255,.7);
+  box-shadow: 0 0 5px rgba(0,0,0,.3) inset;
+  font-size: 17px;
+  padding: 0 px; 
+  margin: 15px 0;
+  letter-spacing: 2px;
+  }
+  
+  .scontain form  input[type="submit"]{
+  width: 90%;
+  cursor: pointer;
+  background: linear-gradient(90deg, deeppink, blueviolet);
+  margin-top: 6px;
+  margin-bottom: 6px;
+  border-radius: 50px;
+  }
+  
+  .scontain form  input[type="submit"]:hover{
+  letter-spacing: 6px ;
+  } 
+
+  
